@@ -4,14 +4,14 @@ public class Motorcycle extends Vehicle {
     private int weight;
     private boolean hasSidecar;
 
-    // Constructor
+
     public Motorcycle(int gasLevel, int weight, boolean hasSidecar) {
         this.gasLevel = gasLevel;
         this.weight = weight;
         this.hasSidecar = hasSidecar;
     }
 
-    // Implementing the abstract methods of Vehicle
+
     @Override
     public void move() {
         System.out.println("The motorcycle is moving.");
@@ -32,7 +32,7 @@ public class Motorcycle extends Vehicle {
         System.out.println("The motorcycle's weight is: " + weight + " kg.");
     }
 
-    // Getter and Setter for hasSidecar
+
     public boolean isHasSidecar() {
         return hasSidecar;
     }
@@ -41,7 +41,7 @@ public class Motorcycle extends Vehicle {
         this.hasSidecar = hasSidecar;
     }
 
-    // Method to display motorcycle details
+
     public void displayInfo() {
         System.out.println("Gas Level: " + gasLevel + " liters");
         System.out.println("Weight: " + weight + " kg");
